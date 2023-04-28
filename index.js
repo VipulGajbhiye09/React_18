@@ -1,8 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-function Message() {
-  return <h1>My First Component</h1>;
+function BookList() {
+  return (
+    <section>
+      <Book />
+      <Book />
+      <Book />
+      <Book />
+    </section>
+  );
 }
 
 const Book = () => {
@@ -29,4 +36,4 @@ const Author = () => <h4>David Grann</h4>;
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(<Message />);
+root.render(<Booklist />);
