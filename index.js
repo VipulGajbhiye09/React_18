@@ -5,6 +5,16 @@ function Message() {
   return <h1>My First Component</h1>;
 }
 
+const Book = () => {
+  return (
+    <article>
+      <Image />
+      <Title />
+      <Author />
+    </article>
+  );
+};
+
 const Image = () => (
   <img
     src="https://images-na.ssl-images-amazon.com/images/I/91qXDU9TXvL._AC_UL600_SR600,400_.jpg"
