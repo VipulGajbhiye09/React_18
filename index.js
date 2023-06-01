@@ -15,12 +15,15 @@ function BookList() {
   );
 }
 
-const Book = () => {
+const Book = (props) => {
+  console.log(props);
   return (
     <article className="book">
-      <Image />
-      <Title />
-      <Author />
+      <img src={img} alt={title}/>
+
+      <h2>{title}</h2>
+
+      <h4> {author} </h4>
     </article>
   );
 };
