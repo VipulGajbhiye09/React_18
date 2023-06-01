@@ -11,9 +11,7 @@ function BookList() {
     <section className="booklist">
       <Book />
       <Book />
-      <Book />
-      <Book />
-    </section>
+    </section>  
   );
 }
 
