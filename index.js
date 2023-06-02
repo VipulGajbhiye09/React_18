@@ -8,10 +8,10 @@ const img ="https://images-na.ssl-images-amazon.com/images/I/91qXDU9TXvL._AC_UL6
 
 function BookList() {
   return (
-    <section className="booklist">
-      <Book />
-      <Book />
-    </section>  
+    <section className='booklist'>
+      <Book job='developer' />
+      <Book title='random title' number={22} />
+    </section>
   );
 }
 
