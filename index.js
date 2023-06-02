@@ -14,16 +14,17 @@ function BookList() {
     </section>
   );
 }
-
+//testing props
 const Book = (props) => {
   console.log(props);
   return (
-    <article className="book">
-      <img src={img} alt={title}/>
-
+    <article className='book'>
+      <img src={img} alt={title} />
       <h2>{title}</h2>
-
-      <h4> {author} </h4>
+      <h4>{author} </h4>
+      <p>{props.job}</p>
+      <p>{props.title}</p>
+      <p>{props.number}</p>
     </article>
   );
 };
