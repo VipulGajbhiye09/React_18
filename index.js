@@ -29,7 +29,6 @@ function BookList() {
     </section>
   );
 }
-
 const Book = (props) => {
   console.log(props);
   return (
