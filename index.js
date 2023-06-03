@@ -2,9 +2,16 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import './index.css'
 
-const author = "David Grann";
-const title = "The Wager: A Tale of Shipwreck, Mutiny and Murder";
-const img ="https://images-na.ssl-images-amazon.com/images/I/91qXDU9TXvL._AC_UL600_SR600,400_.jpg";
+const firstBook = {
+  author: 'Jordan Moore',
+  title: 'Interesting Facts For Curious Minds',
+  img: './images/book-1.jpg',
+};
+const secondBook = {
+  author: 'James Clear',
+  title: 'Atomic Habits',
+  img: 'https://images-na.ssl-images-amazon.com/images/I/81wgcld4wxL._AC_UL900_SR900,600_.jpg',
+};
 
 function BookList() {
   return (
