@@ -2,6 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import './index.css'
 
+//separate objects to pass data to book component to render different books
+
 const firstBook = {
   author: 'Jordan Moore',
   title: 'Interesting Facts For Curious Minds',
