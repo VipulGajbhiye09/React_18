@@ -54,7 +54,7 @@ const Book = (props) => {
 // };
 
 //- destructure in function parameters (in our case props)
-
+//- if you have console.log(props) - it won't be defined
 // const Book = ({ img, title, author }) => {
 //   return (
 //     <article className='book'>
