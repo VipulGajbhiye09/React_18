@@ -41,8 +41,17 @@ const Book = (props) => {
     </article>
   );
 };
+//access props - multiple approaches
+// const someObject = {
+//   name: 'john',
+//   job: 'developer',
+//   location: 'florida',
+// };
 
-
+// console.log(someObject.name);
+// const { name, job } = someObject;
+// console.log(job);
+//
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(<BookList />);
