@@ -52,6 +52,9 @@ const Book = (props) => {
 //     </article>
 //   );
 // };
+//
+
+//one of preffered ways for using props
 
 //- destructure in function parameters (in our case props)
 //- if you have console.log(props) - it won't be defined
