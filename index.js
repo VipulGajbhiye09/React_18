@@ -41,6 +41,7 @@ const Book = (props) => {
     </article>
   );
 };
+//
 //access props - multiple approaches
 // const Book = (props) => {
 //   const { img, title, author } = props;
