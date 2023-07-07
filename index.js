@@ -39,7 +39,7 @@ function BookList() {
   );
 }
 
-
+//added children prop
 const Book = (props) => {
   const { img, title, author, children } = props;
   console.log(props);
