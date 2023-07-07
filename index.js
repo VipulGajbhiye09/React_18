@@ -39,6 +39,7 @@ function BookList() {
   );
 }
 const Book = (props) => {
+  const { img, title, author, children } = props;
   console.log(props);
   return (
     <article className='book'>
