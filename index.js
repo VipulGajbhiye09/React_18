@@ -38,6 +38,8 @@ function BookList() {
     </section>
   );
 }
+
+
 const Book = (props) => {
   const { img, title, author, children } = props;
   console.log(props);
@@ -46,6 +48,7 @@ const Book = (props) => {
       <img src={props.img} alt={props.title} />
       <h2>{props.title}</h2>
       <h4>{props.author} </h4>
+      {children}
     </article>
   );
 };
