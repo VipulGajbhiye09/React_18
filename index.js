@@ -22,9 +22,7 @@ function BookList() {
         author={firstBook.author}
         title={firstBook.title}
         img={firstBook.img}
-      >
-
-      </Book>
+      />
             
       <Book
         author={secondBook.author}
