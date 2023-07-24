@@ -17,23 +17,19 @@ const books = [
   },
 ];
 
+//refactor using map functions 
 function BookList() {
   return (
-    <section className='booklist'>
-      <Book
-        author={firstBook.author}
-        title={firstBook.title}
-        img={firstBook.img}
-      />
-            
-      <Book
-        author={secondBook.author}
-        title={secondBook.title}
-        img={secondBook.img}
-      />
+    <section className="booklist">
+      {books.map((book) => {
+        console.log(book);
+        const { img, title, author, id } = book;
+        return <Book img={img} title={title} author={author} key={id} />;
+      })}
     </section>
   );
 }
+
 
 //added children prop
 const Book = (props) => {
