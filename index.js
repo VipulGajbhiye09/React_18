@@ -17,7 +17,7 @@ const books = [
   },
 ];
 
-//refactor using map functions 
+//refactor using map functions and key prop
 function BookList() {
   return (
     <section className="booklist">
