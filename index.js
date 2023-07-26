@@ -73,7 +73,7 @@ const Book = (props) => {
     </article>
   );
 };
-
+//above wont work as intended
 //
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
